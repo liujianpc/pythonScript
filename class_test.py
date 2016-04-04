@@ -1,5 +1,8 @@
 # coding=utf-8
 #class_test.py
+import sys
+reload(sys)
+sys.setdefaultencoding('utf-8')
 class Person:
     population = 0
     def __init__(self,name,age):
